@@ -354,7 +354,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
             )
           ),
         }),
-        ...images.slice(1).map((image, i) =>
+        ...images.slice(1).map((image: any, i: any) =>
           H(Field, {
             label: `Image ${i + 2}`,
             input: H(
