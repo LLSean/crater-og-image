@@ -109,13 +109,13 @@ export default async function handler(
     // const buffer = canvas.toBuffer();
     const base64Data = c
       .toDataURL({
-        format: "png",
+        format: "jpg",
         quality: 1,
       })
       .replace(/^data:image\/(png|jpeg|jpg);base64,/, "");
     const buffer = Buffer.from(base64Data, "base64");
     res.statusCode = 200;
-    res.setHeader("Content-Type", `image/png`);
+    res.setHeader("Content-Type", `image/jpeg`);
     // res.setHeader(
     //   "Cache-Control",
     //   `public, immutable, no-transform, s-maxage=31536000, max-age=31536000`
