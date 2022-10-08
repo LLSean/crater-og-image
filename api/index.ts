@@ -2,7 +2,6 @@ import { IncomingMessage, ServerResponse } from "http";
 import { createCanvas, loadImage } from "canvas";
 import drawText from "node-canvas-text";
 import opentype from "opentype.js";
-import { parseRequest } from "./_lib/parser";
 import { fabric } from "fabric";
 const nodeCanvas = (fabric as any).nodeCanvas;
 let regularFont = opentype.loadSync(
@@ -17,9 +16,6 @@ export default async function handler(
   req: IncomingMessage,
   res: ServerResponse
 ) {
-  const {} = parseRequest(req);
-
-  console.log();
   try {
     const width = 1200;
     const height = 630;
