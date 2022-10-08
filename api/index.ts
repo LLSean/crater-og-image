@@ -13,7 +13,7 @@ nodeCanvas.registerFont(__dirname + "/_fonts/BIZUDPGothic-Regular.ttf", {
 });
 
 export default async function handler(
-  req: IncomingMessage,
+  // req: IncomingMessage,
   res: ServerResponse
 ) {
   try {
