@@ -7,19 +7,13 @@
     "build": "tsc -p web/tsconfig.json"
   },
   "dependencies": {
-    "@types/fabric": "4.5.12",
     "canvas": "2.10.0",
     "fabric": "5.2.4",
-    "marked": "4.0.10",
-    "node-canvas-text": "1.0.2",
-    "opentype.js": "1.3.4",
     "twemoji": "13.0.1"
   },
   "devDependencies": {
-    "@types/marked": "4.0.1",
+    "@types/fabric": "4.5.12",
     "@types/node": "18.7.15",
-    "@types/node-canvas-text": "1.0.0",
-    "@types/opentype.js": "1.3.4",
     "typescript": "4.1.5"
   }
 }
