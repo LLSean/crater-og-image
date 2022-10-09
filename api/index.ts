@@ -11,9 +11,6 @@ function loadImage(url: string): Promise<fabric.Image> {
 
 const nodeCanvas = (fabric as any).nodeCanvas;
 
-nodeCanvas.registerFont(__dirname + "/_fonts/BIZUDPGothic-Regular.ttf", {
-  family: "BIZUDPGothic",
-});
 nodeCanvas.registerFont(__dirname + "/_fonts/BIZUDPGothic-Bold.ttf", {
   family: "BIZUDPGothicBold",
 });
