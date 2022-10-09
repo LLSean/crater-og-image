@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "canvas": "2.10.0",
-    "fabric": "5.2.4",
-    "twemoji": "13.0.1"
+    "fabric": "5.2.4"
   },
   "devDependencies": {
     "@types/fabric": "4.5.12",
