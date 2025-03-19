@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/**": {
-      "memory": 3008
+      "memory": 512
     }
   },
   "rewrites": [{ "source": "/(.+)", "destination": "/api" }]
